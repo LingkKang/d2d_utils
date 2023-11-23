@@ -1,3 +1,11 @@
+# recognize image
 opencv-python
+
+# decode qr code
 pyzbar
+
+# work on pdf
 PyMuPDF
+
+# work on audio
+pydub
