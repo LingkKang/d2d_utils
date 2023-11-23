@@ -1,4 +1,13 @@
-# trim a video file
+<#
+Cut a video file using FFmpeg.
+
+Dependencies:
+    ffmpeg
+
+Useage:
+    .\cut_video.ps1 .\test\4.mp4
+#>
+
 param(
     [string]$inputFile
 )
