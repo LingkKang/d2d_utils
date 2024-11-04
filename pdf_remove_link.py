@@ -4,7 +4,7 @@ Required:
     - `PyMuPDF`
 
 Usage:
-    `python remove_link.py ./a.pdf`
+    `python pdf_remove_link.py ./a.pdf`
 """
 
 import sys

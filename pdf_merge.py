@@ -4,7 +4,7 @@ Required:
     - `PyMuPDF`
 
 Usage:
-    `python merge_pdf.py ./a.pdf ./b.pdf ...`
+    `python pdf_merge.py ./a.pdf ./b.pdf ...`
 """
 
 import sys
@@ -20,7 +20,7 @@ def get_file_name(file_path):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: python merge_pdf.py ./a.pdf ./b.pdf ...")
+        print("Usage: python pdf_merge.py ./a.pdf ./b.pdf ...")
         sys.exit(1)
 
     toc = []
